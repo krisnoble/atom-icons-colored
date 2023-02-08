@@ -95,6 +95,8 @@
     "js": "_file_js",
     "json": "_file_js",
     "css": "_file_css",
-    "scss": "_file_css"
+    "scss": "_file_css",
+    "yml": "_file_yaml",
+    "yaml": "_file_yaml"
   }
 }
