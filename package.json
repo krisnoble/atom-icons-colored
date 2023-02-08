@@ -1,9 +1,9 @@
 {
-  "name": "atom-icons",
-  "displayName": "Atom Icons",
-  "description": "Atom file and folder icons for VS Code",
-  "version": "1.2.0",
-  "publisher": "emroussel",
+  "name": "atom-icons-colored",
+  "displayName": "Atom Icons Colored",
+  "description": "Atom file and folder icons for VS Code, colorized, based on Atom Icons by @emroussel",
+  "version": "1.0.0",
+  "publisher": "krisnoble",
   "license": "MIT",
   "engines": {
     "vscode": "*"
@@ -24,7 +24,7 @@
     "iconThemes": [
       {
         "id": "atom-icons",
-        "label": "Atom Icons",
+        "label": "Atom Icons Colored",
         "path": "./fileicons/atom-icon-theme.json"
       }
     ]
@@ -38,11 +38,11 @@
     "name": "emroussel"
   },
   "bugs": {
-    "url": "https://github.com/emroussel/atom-icons/issues"
+    "url": "https://github.com/krisnoble/atom-icons-colored/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emroussel/atom-icons.git"
+    "url": "https://github.com/krisnoble/atom-icons-colored.git"
   },
-  "homepage": "https://github.com/emroussel/atom-icons/blob/master/README.md"
+  "homepage": "https://github.com/krisnoble/atom-icons-colored/blob/master/README.md"
 }

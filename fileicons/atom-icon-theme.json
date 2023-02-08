@@ -1,100 +1,100 @@
 {
-  "iconDefinitions": {
-    "_folder_dark": {
-      "iconPath": "./images/file-directory.svg"
+  "fonts": [
+		{
+			"id": "atom-icons-colored",
+			"src": [
+				{
+					"path": "./atom-icons-colored.woff",
+					"format": "woff"
+				}
+			],
+			"weight": "normal",
+			"style": "normal",
+			"size": "125%"
+		}
+	],"iconDefinitions": {
+    "_folder": {
+      "fontCharacter": "\\E902",
+      "fontColor": "#ABB2C0"
     },
-    "_file_dark": {
-      "iconPath": "./images/file.svg"
+    "_file": {
+      "fontCharacter": "\\E905",
+      "fontColor": "#ABB2C0"
     },
-    "_file_media_dark": {
-      "iconPath": "./images/file-media.svg"
+    "_file_media": {
+      "fontCharacter": "\\E904",
+      "fontColor": "#ABB2C0"
     },
-    "_file_doc_dark": {
-      "iconPath": "./images/book.svg"
+    "_file_doc": {
+      "fontCharacter": "\\E901",
+      "fontColor": "#ABB2C0"
     },
-    "_file_pdf_dark": {
-      "iconPath": "./images/file-pdf.svg"
+    "_file_pdf": {
+      "fontCharacter": "\\E903",
+      "fontColor": "#b00"
     },
-    "_root_dark": {
-      "iconPath": "./images/root.svg"
+    "_root": {
+      "fontCharacter": "\\E900",
+      "fontColor": "#ABB2C0"
     },
-    "_file_zip_dark": {
-      "iconPath": "./images/file-zip.svg"
+    "_file_zip": {
+      "fontCharacter": "\\E906",
+      "fontColor": "#ABB2C0"
     },
-    "_folder_light": {
-      "iconPath": "./images/file-directory-light.svg"
+    "_file_php": {
+      "fontColor": "#a074c4"
     },
-    "_file_light": {
-      "iconPath": "./images/file-light.svg"
+    "_file_js": {
+      "fontColor": "#cbcb41"
     },
-    "_file_media_light": {
-      "iconPath": "./images/file-media-light.svg"
+    "_file_html": {
+      "fontColor": "#519aba"
     },
-    "_file_doc_light": {
-      "iconPath": "./images/book-light.svg"
+    "_file_css": {
+      "fontColor": "#f55385"
     },
-    "_file_pdf_light": {
-      "iconPath": "./images/file-pdf-light.svg"
+    "_file_python": {
+      "fontColor": "#64ba51"
     },
-    "_root_light": {
-      "iconPath": "./images/root-light.svg"
-    },
-    "_file_zip_light": {
-      "iconPath": "./images/file-zip-light.svg",
+    "_file_yaml": {
+      "fontColor": "#cb9641"
     }
   },
-  "folder": "_folder_dark",
-  "file": "_file_dark",
-  "rootFolder": "_root_dark",
+  "folder": "_folder",
+  "file": "_file",
+  "rootFolder": "_root",
+  "fileNames": {
+    "license": "_file_doc",
+    "readme": "_file_doc",
+    "changelog": "_file_doc"
+  },
   "fileExtensions": {
-    "gif": "_file_media_dark",
-    "jpeg": "_file_media_dark",
-    "jpg": "_file_media_dark",
-    "md": "_file_doc_dark",
-    "png": "_file_media_dark",
-    "pdf": "_file_pdf_dark",
-    "zip": "_file_zip_dark",
-    "tar": "_file_zip_dark",
-    "xz": "_file_zip_dark",
-    "zst": "_file_zip_dark",
-    "gz": "_file_zip_dark",
-    "7z": "_file_zip_dark",
-    "lz": "_file_zip_dark",
-    "lz4": "_file_zip_dark",
-    "lzma": "_file_zip_dark",
-    "lzo": "_file_zip_dark",
-    "bz2": "_file_zip_dark",
-    "cpio": "_file_zip_dark",
-    "crx": "_file_zip_dark",
-    "jar": "_file_zip_dark",
-    "war": "_file_zip_dark"
-  },
-  "light": {
-    "folder": "_folder_light",
-    "rootFolder": "_root_light",
-    "file": "_file_light",
-    "fileExtensions": {
-      "gif": "_file_media_light",
-      "jpeg": "_file_media_light",
-      "jpg": "_file_media_light",
-      "md": "_file_doc_light",
-      "png": "_file_media_light",
-      "pdf": "_file_pdf_light",
-      "zip": "_file_zip_light",
-      "tar": "_file_zip_light",
-      "xz": "_file_zip_light",
-      "zst": "_file_zip_light",
-      "gz": "_file_zip_light",
-      "7z": "_file_zip_light",
-      "lz": "_file_zip_light",
-      "lz4": "_file_zip_light",
-      "lzma": "_file_zip_light",
-      "lzo": "_file_zip_light",
-      "bz2": "_file_zip_light",
-      "cpio": "_file_zip_light",
-      "crx": "_file_zip_light",
-      "jar": "_file_zip_light",
-      "war": "_file_zip_light"
-    }
+    "gif": "_file_media",
+    "jpeg": "_file_media",
+    "jpg": "_file_media",
+    "md": "_file_doc",
+    "png": "_file_media",
+    "pdf": "_file_pdf",
+    "zip": "_file_zip",
+    "tar": "_file_zip",
+    "xz": "_file_zip",
+    "zst": "_file_zip",
+    "gz": "_file_zip",
+    "7z": "_file_zip",
+    "lz": "_file_zip",
+    "lz4": "_file_zip",
+    "lzma": "_file_zip",
+    "lzo": "_file_zip",
+    "bz2": "_file_zip",
+    "cpio": "_file_zip",
+    "crx": "_file_zip",
+    "jar": "_file_zip",
+    "war": "_file_zip",
+    "php": "_file_php",
+    "html": "_file_html",
+    "js": "_file_js",
+    "json": "_file_js",
+    "css": "_file_css",
+    "scss": "_file_css"
   }
 }
